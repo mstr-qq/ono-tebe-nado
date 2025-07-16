@@ -1,1 +1,1 @@
-https://github.com/mstr-qq/ono-tebe-nado-fd
+https://github.com/mstr-qq/ono-tebe-nado
