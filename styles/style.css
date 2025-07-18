@@ -2,23 +2,27 @@
 
 .header {
   display: grid;
-  grid-template-columns: 392px min-content 1fr;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px 50px;
   text-underline-position: under;
+  min-height: 293px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 32.5px;
   list-style-type: circle;
 }
 
 /* HEADER NAV*/
 
 .header__menu {
-  max-width: 392px;
+  min-width: 392px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .header__links-list-item_no-bullit {
@@ -48,6 +52,9 @@
   align-items: flex-start;
   max-width: 240px;
   justify-self: end;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .header__address {
@@ -56,6 +63,7 @@
 
 .address__location {
   text-decoration: none;
+  font-style: normal;
 }
 
 /*COVER*/
@@ -89,10 +97,9 @@
   font-size: 100px;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-}
-
-.aligned-text {
-  margin: 165px 50px auto 50px;
+  width: 1000px;
+  height: 385px;
+  margin: 164px 50px auto 50px;
 }
 
 .aligned-text_left {
@@ -103,12 +110,15 @@
 .aligned-text_center {
   display: block;
   text-align: center;
+  margin-right: -0.3em;
+  margin-top: 17px;
 }
 
 .aligned-text_right {
   display: block;
   text-align: end;
   margin-right: -0.3em;
+  margin-top: 17px;
 }
 
 /*COVER DESCRIPTION*/
@@ -126,7 +136,7 @@
   align-items: center;
   font-weight: 400;
   font-size: 22px;
-  word-spacing: 0.9em;
+  word-spacing: 0.85em;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -148,13 +158,14 @@
 
 .lots {
   margin-top: 180px;
+  margin-left: 24px;
 }
 
 .lots__heading {
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  margin-left: 64px;
+  margin-left: 40px;
   margin-bottom: 27px;
 }
 
@@ -227,7 +238,8 @@
 /*ABOUT*/
 
 .about {
-  margin-top: 155px;
+  margin-left: 24px;
+  margin-top: 154px;
   width: 1052px;
   min-height: 595px;
 }
@@ -255,7 +267,8 @@
 }
 
 .about__info {
-  width: 693px;
+  margin-left: 25px;
+  width: 690px;
   min-height: 449px;
   margin-top: 101px;
   display: flex;
@@ -282,7 +295,7 @@
 .footer {
   width: 1100px;
   min-height: 180px;
-  margin-top: 180px;
+  margin-top: 146px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
